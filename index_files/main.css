@@ -1,0 +1,71 @@
+body{
+    margin-top:0px;
+    background-color:transparent;
+}
+
+.container{
+    padding-left:30px;
+    border-radius: 15px;
+}
+
+img{
+    border: solid 1px #000;
+}
+
+#header{
+    height: 80px;
+    background: url("./K7.png");
+}
+
+#footer{
+    position: relative;
+    height: 50px;
+    background-color: #6698DB;
+    z-index: 1;
+}
+
+#header_in{
+    background: url("./bg_edge.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 100%;
+}
+
+#footer-edge{
+    height: 5px;
+    background: #3e3e3e;
+}
+
+#content{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#gear1{
+    background: url("./gear1.png");
+    height: 198px;
+    width: 198px;
+    bottom: -130px;
+    right: 10px;
+    z-index: 0;
+}
+
+#gear2{ 
+    background: url("./gear4.png");
+    height: 89px;
+    width: 85px;
+    bottom: 10px;
+    right: 190px;
+    z-index: 2;
+}
+
+.gear{
+    position: absolute;
+    opacity: 0.2;
+    -webkit-animation: anime 25s linear -2s infinite normal;
+}
+
+@-webkit-keyframes anime{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
