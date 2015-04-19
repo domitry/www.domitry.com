@@ -63,9 +63,15 @@ img{
     position: absolute;
     opacity: 0.2;
     -webkit-animation: anime 25s linear -2s infinite normal;
+    -moz-animation: anime 25s linear -2s infinite normal;
 }
 
 @-webkit-keyframes anime{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
+
+@-moz-keyframes anime{
     0% {transform: rotate(0deg);}
     100% {transform: rotate(180deg);}
 }
