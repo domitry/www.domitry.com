@@ -21,7 +21,7 @@ img{
     background: url("./gear1.png");
     height: 198px;
     width: 198px;
-    bottom: -130px;
+    bottom: -50px;
     right: 10px;
     z-index: 0;
 }
@@ -30,7 +30,7 @@ img{
     background: url("./gear4.png");
     height: 89px;
     width: 85px;
-    bottom: 10px;
+    bottom: 90px;
     right: 190px;
     z-index: 2;
 }
