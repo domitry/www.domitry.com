@@ -12,30 +12,6 @@ img{
     border: solid 1px #000;
 }
 
-#header{
-    height: 100px;
-    background: url("./K7.png");
-}
-
-#footer{
-    position: relative;
-    height: 50px;
-    background-color: #6698DB;
-    z-index: 1;
-}
-
-#header_in{
-    background: url("./bg_edge.png");
-    background-repeat: repeat-x;
-    background-position: bottom;
-    height: 100%;
-}
-
-#footer-edge{
-    height: 5px;
-    background: #3e3e3e;
-}
-
 #content{
     margin-top: 50px;
     margin-bottom: 80px;
